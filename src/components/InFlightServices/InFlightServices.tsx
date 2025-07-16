@@ -1,6 +1,4 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 
 const services = [
   {
@@ -36,8 +34,6 @@ const services = [
 ];
 
 const InflightServices = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="h-screen bg-gray-100 text-gray-800 flex flex-col">
       {/* Fixed Centered Header */}

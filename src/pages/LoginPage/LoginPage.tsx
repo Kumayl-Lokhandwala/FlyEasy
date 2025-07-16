@@ -1,9 +1,6 @@
 import Login from "@/components/Login/Login";
-import React from "react";
 
-type Props = {};
-
-const LoginPage = (props: Props) => {
+const LoginPage = () => {
   return (
     <div>
       <Login />

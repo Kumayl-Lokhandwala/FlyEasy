@@ -1,4 +1,3 @@
-import React from "react";
 import { CheckCircle, PlaneTakeoff, Radar, ShieldCheck } from "lucide-react";
 
 const perks = [

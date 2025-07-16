@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroSection = () => {
   return (
     <div className="flex h-screen w-full bg-gradient-to-r from-blue-100 to-white pt-20">
